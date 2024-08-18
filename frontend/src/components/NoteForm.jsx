@@ -71,7 +71,7 @@ const NoteForm = () => {
     <div>
         <Navbar/>
       <form onSubmit={createNote}  className="max-w-sm mx-auto">
-                <h2 className="justify-center">Create a Note</h2>
+                <h2 className="justify-center font-bold">Create a Note</h2>
                 <label htmlFor="title">Title:</label>
                 
                 <input
